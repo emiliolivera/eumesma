@@ -1,0 +1,45 @@
+@font-face {
+    font-family: emili;
+    src: url(Gladista.ttf);
+}
+
+body {
+    background-color: var(-- cor-fundo);
+    font-family: var (--fonte1);
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+:root{
+    --cor-fundo:#fa7399;
+    --fonte1: emili;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+h1 {
+    color:#743a64;
+    font-family: var(--fonte1);
+}
+
+p {
+    color:#75005c
+}
+
+ul li a {
+    color: #ad517d;
+}
+img {border-radius: 50%;
+    background-color: #75005c;
+    border: 5px;
+    border-color: rgb (0, 162, 255);
+}
+div {
+    text-align: center;
+}
+
